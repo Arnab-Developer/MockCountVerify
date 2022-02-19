@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    
+env:
+  CONFIGURATION: Release
+  DOTNET: 6.0.x
 
 jobs:
   build:
@@ -17,13 +21,13 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: ${{ env.DOTNET }}
         
     - name: Restore dependencies
       run: dotnet restore
       
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build -c ${{ env.CONFIGURATION }} --no-restore
       
     - name: Test
-      run: dotnet test --no-build
+      run: dotnet test -c ${{ env.CONFIGURATION }} --no-build
