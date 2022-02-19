@@ -12,8 +12,7 @@ public class WorkerTest
         Mock<ILogger> loggerMock = new();
         Worker worker = new(loggerMock.Object);
 
-        loggerMock
-            .Setup(logger => logger.Log(It.IsAny<string>()));
+        loggerMock.Setup(logger => logger.Log(It.IsAny<string>()));
 
         worker.DoWork();
 
