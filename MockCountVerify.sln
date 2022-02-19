@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockCountVerify.ConsoleApp", "MockCountVerify.ConsoleApp\MockCountVerify.ConsoleApp.csproj", "{FDEF64B0-2B95-47CA-9E52-4E5B1A29C268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockCountVerify.ConsoleAppTest", "MockCountVerify.ConsoleAppTest\MockCountVerify.ConsoleAppTest.csproj", "{FC68BFBE-1CB8-4EA7-ABD0-BD882549DD0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEF64B0-2B95-47CA-9E52-4E5B1A29C268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEF64B0-2B95-47CA-9E52-4E5B1A29C268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEF64B0-2B95-47CA-9E52-4E5B1A29C268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEF64B0-2B95-47CA-9E52-4E5B1A29C268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC68BFBE-1CB8-4EA7-ABD0-BD882549DD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC68BFBE-1CB8-4EA7-ABD0-BD882549DD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC68BFBE-1CB8-4EA7-ABD0-BD882549DD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC68BFBE-1CB8-4EA7-ABD0-BD882549DD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80BF5E19-226D-40AF-9C06-F79CDBD38EFA}
+	EndGlobalSection
+EndGlobal
